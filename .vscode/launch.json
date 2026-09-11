@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "renesas-hardware",
+            "request": "launch",
+            "name": "Debug (E2 / JTAG)",
+            "preLaunchTask": "Build Project",
+            "program": "${workspaceFolder}/build/Ex01_RX72N.elf",
+            "target": {
+                "deviceFamily": "RX",
+                "device": "R5F572NN",
+                "debuggerType": "E2",
+                "serverParameters": {
+                    "-uConnectionTimeout=": 30,
+                    "-uClockSrcHoco=": 0,
+                    "-uInputClock=": 24,
+                    "-uPTimerClock=": 240000000,
+                    "-uAllowClockSourceInternal=": 1,
+                    "-uUseFine=": 0,
+                    "-uJTagClockFreq=": 16.5,
+                    "-w": 0,
+                    "-uWorkRamAddress=": "1000",
+                    "-uRegisterSetting=": 0,
+                    "-uModePin=": 0,
+                    "-uChangeStartupBank=": 0,
+                    "-uDebugMode=": 0,
+                    "-uExecuteProgram=": 0,
+                    "-uIdCode=": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+                    "-uresetOnReload=": 1,
+                    "-uverifyOnWritingMemory=": 0,
+                    "-uProgReWriteIRom=": 0,
+                    "-uProgReWriteDFlash=": 0,
+                    "-uhookWorkRamAddr=": "0x7fb40",
+                    "-uhookWorkRamSize=": "0x4c0",
+                    "-uOSRestriction=": 0
+                }
+            }
+        }
+    ]
+}

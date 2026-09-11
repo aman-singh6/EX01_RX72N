@@ -1,0 +1,25 @@
+# CMake build outputs / CMake ビルド生成物
+/build/
+/output/
+
+# e2 studio metadata (not used in the VS Code workflow) / e2 studio メタデータ (VS Code 運用では未使用)
+/.metadata/
+/.project
+/.cproject
+/.settings/
+/Ex01_Smart HardwareDebug.launch
+/.clangd
+
+# e2 studio generated files / e2 studio 生成物
+/trash/
+
+# VS Code workspace storage / VS Code ワークスペース情報
+/.vscode/.browse.VC.db*
+
+# Editor and operating-system temporary files / エディタ・OS の一時ファイル
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

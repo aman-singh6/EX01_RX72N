@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.iconTheme": "vs-minimal",
+		"renesas.supportsFolderPath": "C:\\Users\\STC-Guest\\.eclipse\\com.renesas.platform_1435879475\\DebugComp\\RX\\"
+	}
+}
